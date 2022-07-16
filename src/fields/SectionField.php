@@ -25,12 +25,12 @@ class SectionField extends Field implements PreviewableFieldInterface
     /**
      * @var array Sections that are allowed for selection in the field settings.
      */
-    public array $allowedSections = [];
+    public $allowedSections = [];
 
     /**
      * @var array Sections that are allowed for selection in the field settings.
      */
-    public array $excludedSections = [];
+    public $excludedSections = [];
 
     /**
      * @inheritdoc
