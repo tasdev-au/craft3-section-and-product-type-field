@@ -24,17 +24,17 @@ class SectionAndProductType extends Plugin
     /**
      * @var string
      */
-    public string $schemaVersion = '1.1.1';
+    public $schemaVersion = '1.1.1';
 
     /**
      * @var bool
      */
-    public bool $hasCpSettings = false;
+    public $hasCpSettings = false;
 
     /**
      * @var bool
      */
-    public bool $hasCpSection = false;
+    public $hasCpSection = false;
 
     /**
      * @inheritdoc
